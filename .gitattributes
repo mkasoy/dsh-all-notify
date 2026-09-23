@@ -1,0 +1,3 @@
+﻿# Normalize line endings in the repository to LF; checked-out files follow the
+# platform. Keeps the published sources identical to what CI and other platforms read.
+* text=auto eol=lf

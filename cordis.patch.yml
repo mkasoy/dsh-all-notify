@@ -1,0 +1,25 @@
+# dsh-all-notify bundle patch: one host row, mounted at the application root.
+#
+# The browser half is not listed here. The modules node half scans this
+# package's `dsh.client` declaration and serves `lib/client.js` into the boot
+# graph, so the row below is the whole host composition.
+- insert:
+    - id: all-notify
+      name: dsh-all-notify
+      # Every key is optional; the defaults notify on every event. Uncomment
+      # `config` to override any of them, or set the same values on the
+      # `all-notify` row in the profile's own cordis.patch.yml.
+      #
+      # config:
+      #   enabled: true
+      #   onApproval: true
+      #   onQuestion: true
+      #   onCompleted: true
+      #   onError: true
+      #   onAborted: true
+      #   onBlocked: true
+      #   onMaxTokens: true
+      #   appName: DeepSeek Harness
+      #   # Logs viewer transitions and every toast decision to the dsh web
+      #   # terminal. Useful when silencing does not behave as expected.
+      #   debug: false
