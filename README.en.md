@@ -25,9 +25,11 @@ No runtime dependencies. No build step.
 ## Install
 
 ```powershell
-dsh plugin --profile web add github:<your-user>/dsh-all-notify
-# or from a local directory
-dsh plugin --profile web add D:\code\dsh-all-notify
+# npm
+dsh plugin --profile web add @mkasoy/dsh-all-notify
+
+# or from GitHub
+dsh plugin --profile web add github:mkasoy/dsh-all-notify
 ```
 
 A host-half change needs a `dsh web` restart; a browser-half change only needs a

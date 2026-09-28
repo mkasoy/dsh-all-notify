@@ -5,7 +5,7 @@
 # graph, so the row below is the whole host composition.
 - insert:
     - id: all-notify
-      name: dsh-all-notify
+      name: '@mkasoy/dsh-all-notify'
       # Every key is optional; the defaults notify on every event. Uncomment
       # `config` to override any of them, or set the same values on the
       # `all-notify` row in the profile's own cordis.patch.yml.

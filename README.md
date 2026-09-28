@@ -20,8 +20,11 @@ DeepSeek Harness 的原生系统通知插件：审批、提问、任务结束、
 ## 安装
 
 ```powershell
-dsh plugin --profile web add github:mkasoy/dsh-all-notify
+# npm
+dsh plugin --profile web add @mkasoy/dsh-all-notify
 
+# 或从 GitHub
+dsh plugin --profile web add github:mkasoy/dsh-all-notify
 ```
 
 改了宿主半身需要重启 `dsh web`；只改浏览器半身刷新页面即可。

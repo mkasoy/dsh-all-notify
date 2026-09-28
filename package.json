@@ -1,9 +1,9 @@
 {
-  "name": "dsh-all-notify",
+  "name": "@mkasoy/dsh-all-notify",
   "version": "0.1.0",
-  "private": true,
   "description": "Native Windows toast notifications for DeepSeek Harness host events (approval, question, completion, error), silencing the session currently open in the page.",
   "license": "MIT",
+  "author": "mkasoy",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -35,6 +35,17 @@
     "桌面通知",
     "消息提醒"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkasoy/dsh-all-notify.git"
+  },
+  "homepage": "https://github.com/mkasoy/dsh-all-notify#readme",
+  "bugs": {
+    "url": "https://github.com/mkasoy/dsh-all-notify/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
